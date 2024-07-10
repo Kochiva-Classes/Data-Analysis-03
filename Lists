@@ -1,0 +1,8 @@
+Finding Greatest Number
+-----------------------
+l = [2,4,1,9,7,3,6,21,44,0]
+k = l[0]
+for i in l:
+    if i>k:
+        k = i
+print(k)
