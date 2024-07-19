@@ -1,0 +1,14 @@
+
+# Write a program that removes all vowels from a given string using sets.
+
+# Get string from user
+string = input("Enter a string: ")
+
+# # Define vowels
+vowels = {'a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U'}
+
+# # Remove vowels from string
+result = ''.join([char for char in string if char not in vowels])
+
+# # Print result
+print("String after removing vowels:", result)
